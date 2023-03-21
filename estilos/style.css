@@ -1,0 +1,484 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+
+/*estilos generales*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family:'Work Sans', sans-serif;
+    padding-top: 107.33px;
+   
+}
+
+
+main div.flex-tituloprincipal{
+display: flex;
+justify-content: center;
+font-size: 2.8vw;
+line-height: 1.6;
+letter-spacing: .3rem;
+padding-top:8%
+}
+
+main div.flex-subtitulo{
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 2.5%;
+    padding-top: 8%;
+    font-size: 2.2vw;
+    line-height: 1.6;
+    letter-spacing: .2rem;
+
+    }
+
+
+.sangriasubtitulo{
+    padding-left: 4%;
+    padding-top: 10%;
+ }
+
+ul li{
+    list-style: none;
+    
+}
+
+ul li a{
+    color: black;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.dropdown-item{
+    font-size: 1rem;
+}
+
+a.nav-link{
+color: black;
+}
+a:hover, a.nav-link:hover, a.dropdown-item:hover{
+    color:rgb(230, 18, 166);
+}
+
+
+main.container-index{
+    display:flex;
+    flex-direction: column;
+    row-gap: 0,5rem;
+    
+}
+
+.img_fondoindex{
+    width: 100%;
+}
+
+/*footer*/
+footer{
+ 
+    list-style: none;
+    border-top: solid 0.5px grey; 
+    padding-top: 5%;
+    font-size: 0.9rem;
+    line-height: 1.6;
+   
+}
+
+.flexcontainer_footer_padre{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end ;
+   
+}
+.flexcontainer_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding-bottom: 4%;
+    
+}
+
+
+footer ul li a{
+    font-size: 0.9rem;
+    }
+
+footer div.footer_redes{
+    padding-left: 2%;
+    padding-top: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 2%;
+  }
+
+footer img, footer a img{
+    height:5vh;
+    
+     }
+
+/*SECCIÓN GALERÍA*/
+
+
+ div.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap: 1%;
+    padding:1%;
+    padding-bottom: 4%;
+    
+
+} 
+
+h2.formato-subtitulo{
+        padding-bottom: 2%;
+        padding-top:1% ;
+     }   
+
+
+div.celda_galeria{
+    display: flex;
+    flex-direction: column;
+    align-items:space-around;
+    gap:5px;
+
+}
+
+div.celda_galeria img{
+    width: 100%;
+}
+
+div.celda_galeria p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+/*SECCIÓN DISEÑADORES*/
+
+
+main div.gridpadre-disenadores{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6,1fr);
+    justify-items: start;
+    justify-content: center;
+    padding: 10%;
+    gap: 1%;
+
+}
+
+main div.gridpadre-disenadores iframe{
+    
+    width: 95%;
+    height: 100%;
+    padding-right: 10%;
+}
+
+main div.gridpadre-disenadores img{
+    
+    width: 95%;
+    height: auto;
+    padding-right: 10%;
+}
+
+main div.gridpadre-disenadores img.flex-hijo{
+    
+    width: 95%;
+    height: auto;
+    padding-right: 10%;
+}
+
+   /*SECCIÓN NOSOTRAS*/
+
+   div.paginacompartida{
+    display:flex;
+    justify-content: space-around;
+    padding: 1%;
+    padding-top: 8%;
+    
+    
+  
+   }
+
+   div.paginacompartida div {
+   display: flex;
+   align-items: center;
+   border: 2px inset rgb(230, 18, 166);
+   width: 35%;
+   justify-content: center;
+   background-image: url("../nosotras/fondo3.JPG");
+  
+
+   }
+    
+    
+   
+   div.paginacompartida div img {
+    padding: 1%;
+    width: 90%;
+   
+    
+      
+   }
+ 
+   div.paginacompartida section {
+       width: 60%;
+       padding-left: 1%;
+
+
+   }
+ 
+ 
+ 
+   div.paginacompartida section p{
+    text-align: justify;
+    font-size: 1rem;
+    padding-top: 1.5%;
+    
+   }
+ 
+   p.parrafo-resaltado{
+    font-style: italic;
+    font-weight: bold;
+   }
+
+    
+ 
+    .flex-contacto{
+        display: flex;
+        align-items: center;
+        padding-bottom: 4%;
+        
+
+    }
+
+    .itemscontacto{
+        padding-top:3%;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .datos-contacto{
+        display: flex;
+        justify-content: flex-start;
+       padding-left: 5%;
+       padding-bottom: 1%;
+       
+    }
+ .datos-contacto-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    padding-left:1%;
+ }
+ .datos-contacto img{
+    height:2rem ;
+    
+ }
+.iframe{
+    width: 50%;
+    padding-right: 2%;
+}
+
+.flex-formulario{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15%;
+    padding-bottom:20%;
+  
+}
+
+   label fieldset.formato{
+    position:relative ;
+    top:1000px;
+
+   }
+      
+   label.formato formulario{
+    position: relative;
+    top: 100px;
+   }
+
+  
+#nombre, #mail, #telefono, #texto{
+    display: block;
+    margin-bottom: 5px;
+     
+}
+  
+  #margen{
+    margin-top: 30px;
+    position: relative;
+    left: 100px;
+    padding: 10px 35px;
+    border-radius: 10px;
+  }
+
+
+
+     /*CONDICIONES*/
+
+     .formatocondiciones{
+        padding-bottom: 1%;
+        padding-top: 30%;
+    
+      }
+
+  #envios, #mediosdepago, #cambiosydevoluciones{
+     padding-bottom: 10%;
+ 
+  }
+  p.negrita{
+    font-weight: bold;
+    font-size: 1rem;
+    text-indent:0px ;
+    padding-left: 2%;
+    }
+
+div.espacio-parrafos{
+    padding-bottom: 2%;
+}
+
+ul.items li{
+    list-style:square;}
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width:1200px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 5%;
+    }
+
+}
+
+
+@media (max-width:1000px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 8%;
+    }
+
+}
+
+@media (max-width:767px) {
+  
+/*PRODUCTOS*/
+
+.espacioparaid{
+    margin-top: 8%;
+}
+
+  div.galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+                           
+    }
+    
+    div.galeria-dia, div.galeria-noche{
+        padding-bottom: 40%;
+    }
+
+  div.galeria-beachwear, div.galeria-noche{
+        grid-template-rows: repeat(3,1fr);
+        
+    }
+
+   div.galeria-dia{
+        grid-template-rows: repeat(8,1fr);
+        
+    }
+
+    /*DISEÑADORES*/
+
+    main div.gridpadre-disenadores{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+        
+    }
+
+    /*NOSOTRAS*/
+    div.paginacompartida{
+        
+        flex-direction: column;
+        align-items: center;
+      
+       }
+ 
+       .flex-contacto{
+        flex-direction: column;
+       }
+
+.texto{
+    padding-top:6%;
+
+}
+}
+
+@media (max-width:651px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 12%;
+    }
+}    
+
+@media (max-width:551px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 15%;
+    }
+}  
+
+@media (max-width:451px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 20%;
+    }
+}  
+
+@media (max-width:381px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 25%;
+    }
+}
+
+
+@media (max-width:331px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 30%;
+    }
+}
+
+
+@media (max-width:287px) {
+    body{
+        padding-top: 147px;
+    }
+    .espacioparaid{
+        margin-top: 50%;
+    }
+}
