@@ -86,7 +86,6 @@ main div.gridpadre-disenadores {
 }
 main div.gridpadre-disenadores img, main div.gridpadre-disenadores iframe {
   width: 95%;
-  /* height: auto;*/
   padding-right: 10%;
 }
 main div.gridpadre-disenadores iframe {
@@ -199,11 +198,6 @@ div.espacio-parrafos ul.items li {
   list-style: square;
 }
 
-/* .formatocondiciones{
-     padding-bottom: 1%;
-     padding-top: 30%;
-
-   }*/
 #envios, #mediosdepago, #cambiosydevoluciones {
   padding-bottom: 10%;
 }
@@ -263,7 +257,6 @@ footer {
   list-style: none;
   border-top: solid 0.5px grey;
   padding-top: 5%;
-  /*font-size: 0.9rem;*/
   line-height: 1.6;
 }
 footer .flexcontainer_footer_padre {
@@ -318,6 +311,16 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
   }
 }
 @media (max-width: 767px) {
+  /*INDEX*/
+  .beach {
+    background-image: url("../imagenes/capturemovile.JPG");
+  }
+  .day {
+    background-image: url("../imagenes/capturemovileday.JPG");
+  }
+  .night {
+    background-image: url("../imagenes/capturemovilenight.JPG");
+  }
   /*PRODUCTOS*/
   .espacioparaid {
     margin-top: 8%;

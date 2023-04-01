@@ -103,7 +103,6 @@ footer{
     list-style: none;
     border-top: solid 0.5px grey; 
     padding-top: 5%;
-    /*font-size: 0.9rem;*/
     line-height: 1.6;
     .flexcontainer_footer_padre{
         display: flex;
@@ -158,6 +157,8 @@ footer{
 
 /*MEDIA QUERIES*/
 
+
+
 @media (max-width:1200px) {
   
     /*PRODUCTOS*/
@@ -180,27 +181,42 @@ footer{
 }
 
 @media (max-width:767px) {
+
+    /*INDEX*/
+
+    .beach{
+    
+        background-image: url("../imagenes/capturemovile.JPG");
+    }
+
+    .day{
+    
+        background-image: url("../imagenes/capturemovileday.JPG");
+    }
+
+    .night{
+    
+        background-image: url("../imagenes/capturemovilenight.JPG");
+    }
+
   
-/*PRODUCTOS*/
+    /*PRODUCTOS*/
 
-.espacioparaid{
-    margin-top: 8%;
-}
+    .espacioparaid{
+        margin-top: 8%;
+    }
 
-  div.galeria{
+    div.galeria{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        
-                           
+        grid-template-columns: 1fr 1fr;  
     }
     
     div.galeria-dia, div.galeria-noche{
         padding-bottom: 40%;
     }
 
-  div.galeria-beachwear, div.galeria-noche{
-        grid-template-rows: repeat(3,1fr);
-        
+    div.galeria-beachwear, div.galeria-noche{
+        grid-template-rows: repeat(3,1fr);    
     }
 
    div.galeria-dia{
@@ -222,16 +238,15 @@ footer{
         flex-direction: column;
         align-items: center;
       
-       }
+    }
  
-       .flex-contacto{
+    .flex-contacto{
         flex-direction: column;
-       }
+    }
 
-.texto{
-    padding-top:6%;
-
-}
+    .texto{
+        padding-top:6%;
+    }
 }
 
 @media (max-width:651px) {
