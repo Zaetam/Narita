@@ -1,0 +1,39 @@
+
+main div.gridpadre-disenadores{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6,1fr);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    gap: 1%;
+    
+
+    img{
+    
+        width: 95%;
+       /* height: auto;*/
+        padding-right: 10%;
+      
+    }
+
+    iframe{
+    
+       @extend img;
+        height: 100%;
+        
+    }
+    
+   
+
+    
+
+
+}
+
+
+
+
+
+

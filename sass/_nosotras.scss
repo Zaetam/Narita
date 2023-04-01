@@ -1,0 +1,145 @@
+/*VARIBALES*/
+
+$rosaHover:rgb(230, 18, 166);
+
+
+
+div.paginacompartida{
+    display:flex;
+    justify-content: space-around;
+    padding: 1%;
+    padding-top: 8%;
+
+    div {
+        display: flex;
+        align-items: center;
+        border: 2px inset $rosaHover;
+        width: 35%;
+        justify-content: center;
+        background-image: url("../imagenes/fondo3.JPG");
+        
+        img {
+           padding: 1%;
+           width: 90%;
+           border: 2px solid white;      
+        }
+    }
+
+    section {
+        width: 60%;
+        padding-left: 1%;
+        
+        p{
+            text-align: justify;
+            font-size: 1rem;
+            padding-top: 1.5%;
+            
+        }
+
+        p.parrafo-resaltado{
+            font-style: italic;
+            font-weight: bold;
+        }
+ 
+    }
+}
+ 
+   
+   
+
+    
+ 
+.flex-contacto{
+    display: flex;
+    align-items: center;
+    padding-bottom: 4%;
+        
+    .itemscontacto{
+        padding-top:3%;
+        display:flex;
+        flex-direction: column;
+
+        .datos-contacto{
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 5%;
+            padding-bottom: 1%;
+
+            .datos-contacto-p{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 1rem;
+                padding-left:1%;
+            }
+
+            img{
+                height:2rem ;
+                
+             }
+               
+        }
+            
+    }
+
+    .iframe{
+        width: 50%;
+        padding-right: 2%;
+    }
+
+}
+
+
+
+
+ 
+
+
+.flex-formulario{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15%;
+    padding-bottom:20%;
+
+    form{
+
+        fieldset{
+
+            #nombre, #mail, #telefono, #texto{
+                display: block;
+                margin-bottom: 5px;
+                 
+            }
+              
+              #margen{
+                margin-top: 30px;
+                position: relative;
+                left: 100px;
+                padding: 10px 35px;
+                border-radius: 10px;
+              }
+
+
+
+        }
+    }
+
+
+  
+}
+
+  /* label fieldset.formato{
+    position:relative ;
+    top:1000px;
+
+   }
+      
+   label.formato formulario{
+    position: relative;
+    top: 100px;
+   }*/
+
+  
+
+
+

@@ -1,0 +1,68 @@
+
+/*VARIBALES*/
+
+$rosaHover:rgb(230, 18, 166);
+
+@mixin divrubros{
+  background-color: black;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+  
+    height: 90vh;
+}
+
+
+
+main.container-index{
+    display:flex;
+    flex-direction: column;
+    row-gap: 0,5rem;
+
+
+  div{
+    
+
+    a.arubro{
+      text-decoration: none;
+      color: white;
+
+    
+
+      h2.rubro{
+        font-size: 8vw;
+        letter-spacing: .2rem;
+        font-weight: 900;
+      }
+    }
+    a.arubro:hover{
+      color: $rosaHover;
+    }
+
+  }
+       
+  .beach{  
+    @include divrubros;
+    background-image: url("../imagenes/capturebw.JPG");
+  }
+
+  .day{
+    @include divrubros;
+    background-image: url("../imagenes/capturedia2.JPG");
+  }
+
+  .night{
+    @include divrubros;
+    background-image: url("../imagenes/capturenoche.JPG");
+  }
+
+
+}
+
+
+  
+

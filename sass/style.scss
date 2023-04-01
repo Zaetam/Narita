@@ -1,0 +1,292 @@
+@import "index";
+@import "productos";
+@import "disenadores";
+@import"nosotras";
+@import "condiciones";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+
+/*VARIABLES*/
+
+$rosaHover:rgb(230, 18, 166);
+
+/*MAPAS*/
+$tamanoFuente:  (
+    titulo:2.8vw, 
+    subtitulo:2.2vw ,
+    listable: 1rem ,
+    itemfooter: 0.9rem,
+    
+ 
+);
+
+
+/*estilos generales*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family:'Work Sans', sans-serif;
+    padding-top: 107.33px;
+   
+}
+
+header{
+    nav{
+        div{
+            div{
+                ul{
+                    li{
+                        a.nav-link{
+                            color:black;
+                        }
+                        a.nav-link:hover{
+                            color: $rosaHover;
+                        }
+                        
+                        ul{
+                            li{
+                                a.dropdown-item{
+                                font-size: map-get( $tamanoFuente, listable);
+                                
+                                }
+                                a.dropdown-item:hover{
+                                    color:$rosaHover;
+                                }
+                            }
+                        }
+                    }
+                }
+            } 
+        }                
+    }                        
+}                            
+
+ 
+main{
+    div.flex-tituloprincipal{
+display: flex;
+justify-content: center;
+font-size:map-get($tamanoFuente, titulo);
+line-height: 1.6;
+letter-spacing: .3rem;
+padding-top:8%;
+}
+
+    section div.flex-subtitulo{
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 2.5%;
+    padding-top: 8%;
+    font-size: map-get($tamanoFuente, subtitulo ) ;
+    line-height: 1.6;
+    letter-spacing: .2rem;
+
+        h2.formato-subtitulo{
+        padding-bottom: 2%;
+        padding-top:1% ;
+     } 
+
+    }
+
+}
+
+ 
+
+/*footer*/
+footer{
+ 
+    list-style: none;
+    border-top: solid 0.5px grey; 
+    padding-top: 5%;
+    /*font-size: 0.9rem;*/
+    line-height: 1.6;
+    .flexcontainer_footer_padre{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end ;
+       .flexcontainer_footer{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 15px;
+            padding-bottom: 4%;
+        
+            li{
+                list-style: none;
+                a{
+                    color:black;
+                    font-size: map-get($tamanoFuente , itemfooter );
+                    text-decoration: none;
+                }
+            
+                a:hover{
+                    color:$rosaHover;
+                }       
+            }
+        }
+    }
+    
+    .footer_redes{
+        padding-left: 2%;
+        padding-top: 4%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-bottom: 2%;
+          
+        img{
+            height:5vh;
+        }
+        
+        a img{
+            height:5vh;
+        }
+    }
+}
+
+     
+    
+  
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width:1200px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 5%;
+    }
+
+}
+
+
+@media (max-width:1000px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 8%;
+    }
+
+}
+
+@media (max-width:767px) {
+  
+/*PRODUCTOS*/
+
+.espacioparaid{
+    margin-top: 8%;
+}
+
+  div.galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+                           
+    }
+    
+    div.galeria-dia, div.galeria-noche{
+        padding-bottom: 40%;
+    }
+
+  div.galeria-beachwear, div.galeria-noche{
+        grid-template-rows: repeat(3,1fr);
+        
+    }
+
+   div.galeria-dia{
+        grid-template-rows: repeat(8,1fr);
+        
+    }
+
+    /*DISEÑADORES*/
+
+    main div.gridpadre-disenadores{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+        
+    }
+
+    /*NOSOTRAS*/
+    div.paginacompartida{
+        
+        flex-direction: column;
+        align-items: center;
+      
+       }
+ 
+       .flex-contacto{
+        flex-direction: column;
+       }
+
+.texto{
+    padding-top:6%;
+
+}
+}
+
+@media (max-width:651px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 12%;
+    }
+}    
+
+@media (max-width:551px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 15%;
+    }
+}  
+
+@media (max-width:451px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 20%;
+    }
+}  
+
+@media (max-width:381px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 25%;
+    }
+}
+
+
+@media (max-width:331px) {
+  
+    /*PRODUCTOS*/
+    
+    .espacioparaid{
+        margin-top: 30%;
+    }
+}
+
+
+@media (max-width:287px) {
+    body{
+        padding-top: 147px;
+    }
+    .espacioparaid{
+        margin-top: 50%;
+    }
+}
+
