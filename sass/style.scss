@@ -184,17 +184,18 @@ footer{
 
     /*INDEX*/
 
-    .beach{
+    main.container-index div.beach{
     
         background-image: url("../imagenes/capturemovile.JPG");
+        
     }
 
-    .day{
-    
-        background-image: url("../imagenes/capturemovileday.JPG");
+    main.container-index div.day{
+     background-image: url("../imagenes/capturemovileday.JPG");
+     
     }
 
-    .night{
+    main.container-index div.night{
     
         background-image: url("../imagenes/capturemovilenight.JPG");
     }

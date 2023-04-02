@@ -92,7 +92,7 @@ main div.gridpadre-disenadores iframe {
   height: 100%;
 }
 
-/*VARIBALES*/
+/*VARIABLES*/
 div.paginacompartida {
   display: flex;
   justify-content: space-around;
@@ -175,16 +175,6 @@ div.paginacompartida section p.parrafo-resaltado {
   border-radius: 10px;
 }
 
-/* label fieldset.formato{
-  position:relative ;
-  top:1000px;
-
- }
-
- label.formato formulario{
-  position: relative;
-  top: 100px;
- }*/
 div.espacio-parrafos {
   padding-bottom: 2%;
 }
@@ -312,13 +302,13 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
 }
 @media (max-width: 767px) {
   /*INDEX*/
-  .beach {
+  main.container-index div.beach {
     background-image: url("../imagenes/capturemovile.JPG");
   }
-  .day {
+  main.container-index div.day {
     background-image: url("../imagenes/capturemovileday.JPG");
   }
-  .night {
+  main.container-index div.night {
     background-image: url("../imagenes/capturemovilenight.JPG");
   }
   /*PRODUCTOS*/
