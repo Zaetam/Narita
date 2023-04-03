@@ -22,7 +22,7 @@ main.container-index div a.arubro h1.rubro {
   font-size: 10vw;
   letter-spacing: 0.2rem;
   font-weight: 900;
-  animation: ease-in portada 2s;
+  animation: ease-in portada 1s;
 }
 @keyframes portada {
   0% {
