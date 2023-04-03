@@ -10,6 +10,7 @@ div.paginacompartida{
     padding: 1%;
     padding-top: 8%;
 
+    
     div {
         display: flex;
         align-items: center;
@@ -17,12 +18,18 @@ div.paginacompartida{
         width: 35%;
         justify-content: center;
         background-image: url("../imagenes/fondo3.JPG");
+        animation: ease-in retrato 40s; 
+          
         
-        img {
+        img.fotoretrato {
            padding: 1%;
            width: 90%;
-           border: 2px solid white;      
+           border: 2px solid white; 
+           
+           
         }
+
+        
     }
 
     section {
@@ -34,18 +41,24 @@ div.paginacompartida{
             font-size: 1rem;
             padding-top: 1.5%;
             
+            
         }
 
         p.parrafo-resaltado{
             font-style: italic;
             font-weight: bold;
+            
         }
  
     }
+
+
+   
 }
  
    
-   
+
+ 
 
     
  
@@ -75,12 +88,14 @@ div.paginacompartida{
 
             img{
                 height:2rem ;
-                
+              
              }
                
         }
             
     }
+
+  
 
     .iframe{
         width: 50%;
@@ -88,7 +103,6 @@ div.paginacompartida{
     }
 
 }
-
 
 
 

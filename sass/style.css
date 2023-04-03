@@ -6,17 +6,42 @@ main.container-index {
   flex-direction: column;
   row-gap: 0, 5rem;
 }
+main.container-index div a.arubro:hover {
+  color: rgb(230, 18, 166);
+}
 main.container-index div a.arubro {
   text-decoration: none;
   color: white;
 }
 main.container-index div a.arubro h2.rubro {
-  font-size: 8vw;
+  font-size: 6vw;
   letter-spacing: 0.2rem;
   font-weight: 900;
 }
-main.container-index div a.arubro:hover {
-  color: rgb(230, 18, 166);
+main.container-index div a.arubro h1.rubro {
+  font-size: 10vw;
+  letter-spacing: 0.2rem;
+  font-weight: 900;
+  animation: ease-in portada 3s;
+}
+@keyframes portada {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+main.container-index .todos {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 120vh;
+  background-image: url("../imagenes/capturenarita3.JPG");
 }
 main.container-index .beach {
   background-color: black;
@@ -26,7 +51,7 @@ main.container-index .beach {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90vh;
+  height: 120vh;
   background-image: url("../imagenes/capturebw.JPG");
 }
 main.container-index .day {
@@ -37,7 +62,7 @@ main.container-index .day {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90vh;
+  height: 120vh;
   background-image: url("../imagenes/capturedia2.JPG");
 }
 main.container-index .night {
@@ -48,7 +73,7 @@ main.container-index .night {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 90vh;
+  height: 120vh;
   background-image: url("../imagenes/capturenoche.JPG");
 }
 
@@ -68,6 +93,10 @@ div.galeria div.celda_galeria {
 }
 div.galeria div.celda_galeria img, div.galeria div.celda_galeria main div.gridpadre-disenadores iframe, main div.gridpadre-disenadores div.galeria div.celda_galeria iframe {
   width: 100%;
+  transition: 0.5s ease all;
+}
+div.galeria div.celda_galeria img:hover, div.galeria div.celda_galeria main div.gridpadre-disenadores iframe:hover, main div.gridpadre-disenadores div.galeria div.celda_galeria iframe:hover {
+  transform: scale(1.08);
 }
 div.galeria div.celda_galeria p {
   font-size: 1rem;
@@ -302,6 +331,9 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
 }
 @media (max-width: 767px) {
   /*INDEX*/
+  main.container-index div.todos {
+    background-image: url("../imagenes/capturenarita3movile.JPG");
+  }
   main.container-index div.beach {
     background-image: url("../imagenes/capturemovile.JPG");
   }

@@ -13,7 +13,7 @@ $rosaHover:rgb(230, 18, 166);
   background-repeat:no-repeat;
   background-position: center center;
   
-  height: 90vh;
+  height: 120vh;
 }
 
 
@@ -25,6 +25,10 @@ main.container-index{
 
 
   div{
+
+    a.arubro:hover{
+      color: $rosaHover;
+    }
     
 
     a.arubro{
@@ -34,16 +38,38 @@ main.container-index{
     
 
       h2.rubro{
-        font-size: 8vw;
+        font-size: 6vw;
         letter-spacing: .2rem;
         font-weight: 900;
       }
-    }
-    a.arubro:hover{
-      color: $rosaHover;
+
+      h1.rubro{
+        font-size: 10vw;
+        letter-spacing: .2rem;
+        font-weight: 900;
+        animation: ease-in portada 2s;
+      }
     }
 
   }
+
+  @keyframes portada{
+    0% {
+      transform:scale(0);
+    }
+
+    100% {
+      transform:scale(1);
+    }
+  }
+
+  
+
+  .todos{  
+    @include divrubros;
+    background-image: url("../imagenes/capturenarita3.JPG");
+  }
+
        
   .beach{  
     @include divrubros;
@@ -59,10 +85,4 @@ main.container-index{
     @include divrubros;
     background-image: url("../imagenes/capturenoche.JPG");
   }
-
-
 }
-
-
-  
-
