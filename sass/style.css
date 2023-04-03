@@ -22,7 +22,7 @@ main.container-index div a.arubro h1.rubro {
   font-size: 10vw;
   letter-spacing: 0.2rem;
   font-weight: 900;
-  animation: ease-in portada 3s;
+  animation: ease-in portada 2s;
 }
 @keyframes portada {
   0% {
@@ -135,8 +135,9 @@ div.paginacompartida div {
   width: 35%;
   justify-content: center;
   background-image: url("../imagenes/fondo3.JPG");
+  animation: ease-in retrato 40s;
 }
-div.paginacompartida div img, div.paginacompartida main div.gridpadre-disenadores iframe, main div.paginacompartida div.gridpadre-disenadores iframe {
+div.paginacompartida div img.fotoretrato, div.paginacompartida main div.gridpadre-disenadores iframe.fotoretrato, main div.paginacompartida div.gridpadre-disenadores iframe.fotoretrato {
   padding: 1%;
   width: 90%;
   border: 2px solid white;
@@ -333,15 +334,19 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
   /*INDEX*/
   main.container-index div.todos {
     background-image: url("../imagenes/capturenarita3movile.JPG");
+    height: 100vh;
   }
   main.container-index div.beach {
     background-image: url("../imagenes/capturemovile.JPG");
+    height: 100vh;
   }
   main.container-index div.day {
     background-image: url("../imagenes/capturemovileday.JPG");
+    height: 100vh;
   }
   main.container-index div.night {
     background-image: url("../imagenes/capturemovilenight.JPG");
+    height: 100vh;
   }
   /*PRODUCTOS*/
   .espacioparaid {
