@@ -22,7 +22,7 @@ main.container-index div a.arubro h1.rubro {
   font-size: 10vw;
   letter-spacing: 0.2rem;
   font-weight: 900;
-  animation: ease-in portada 1s;
+  animation: ease-in portada 1.1s;
 }
 @keyframes portada {
   0% {
@@ -52,7 +52,7 @@ main.container-index .beach {
   background-repeat: no-repeat;
   background-position: center center;
   height: 120vh;
-  background-image: url("../imagenes/capturebw.JPG");
+  background-image: url("../imagenes/capturebwkraked.JPEG");
 }
 main.container-index .day {
   background-color: black;
@@ -74,7 +74,7 @@ main.container-index .night {
   background-repeat: no-repeat;
   background-position: center center;
   height: 120vh;
-  background-image: url("../imagenes/capturenoche.JPG");
+  background-image: url("../imagenes/capturenochekraked.JPG");
 }
 
 div.galeria {

@@ -47,7 +47,7 @@ main.container-index{
         font-size: 10vw;
         letter-spacing: .2rem;
         font-weight: 900;
-        animation: ease-in portada 1s;
+        animation: ease-in portada 1.10s;
       }
     }
 
@@ -73,7 +73,7 @@ main.container-index{
        
   .beach{  
     @include divrubros;
-    background-image: url("../imagenes/capturebw.JPG");
+    background-image: url("../imagenes/capturebwkraked.JPEG");
   }
 
   .day{
@@ -83,6 +83,6 @@ main.container-index{
 
   .night{
     @include divrubros;
-    background-image: url("../imagenes/capturenoche.JPG");
+    background-image: url("../imagenes/capturenochekraked.JPG");
   }
 }
