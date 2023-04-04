@@ -1,3 +1,3 @@
-# Página web 2da entrega curso dw Marina Zaeta.
+# Página web 3ra entrega curso dw Marina Zaeta.
 
 ### NARITA
