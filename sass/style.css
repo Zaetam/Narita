@@ -196,16 +196,31 @@ div.paginacompartida section p.parrafo-resaltado {
   padding-left: 15%;
   padding-bottom: 20%;
 }
-.flex-formulario form fieldset #nombre, .flex-formulario form fieldset #mail, .flex-formulario form fieldset #telefono, .flex-formulario form fieldset #texto {
-  display: block;
-  margin-bottom: 5px;
+.flex-formulario form fieldset {
+  display: flex;
+  flex-direction: column;
+  /*#nombre, #mail, #telefono, #texto{
+       display: block;
+       margin-bottom: 5px;
+
+   }
+
+     #margen{
+       margin-top: 30px;
+       position: relative;
+       left: 100px;
+       padding: 10px 35px;
+       border-radius: 10px;
+     }
+   */
+}
+.flex-formulario form fieldset div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4%;
 }
 .flex-formulario form fieldset #margen {
-  margin-top: 30px;
-  position: relative;
-  left: 100px;
-  padding: 10px 35px;
-  border-radius: 10px;
+  margin-top: 2%;
 }
 
 div.espacio-parrafos {
@@ -256,21 +271,23 @@ header nav div div ul li ul li a.dropdown-item:hover {
 main div.flex-tituloprincipal {
   display: flex;
   justify-content: center;
-  font-size: 2.8vw;
   line-height: 1.6;
   letter-spacing: 0.3rem;
   padding-top: 8%;
+}
+main div.flex-tituloprincipal h1 {
+  font-size: 4.5rem;
 }
 main section div.flex-subtitulo {
   display: flex;
   justify-content: flex-start;
   padding-left: 2.5%;
   padding-top: 8%;
-  font-size: 2.2vw;
   line-height: 1.6;
   letter-spacing: 0.2rem;
 }
 main section div.flex-subtitulo h2.formato-subtitulo {
+  font-size: 3.5rem;
   padding-bottom: 2%;
   padding-top: 1%;
 }
@@ -378,11 +395,21 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
     flex-direction: column;
     align-items: center;
   }
+  div.paginacompartida div {
+    width: 80%;
+  }
+  div.paginacompartida section {
+    width: 80%;
+  }
   .flex-contacto {
     flex-direction: column;
+    align-items: flex-start;
   }
   .texto {
     padding-top: 6%;
+  }
+  .iframe {
+    align-self: center;
   }
 }
 @media (max-width: 651px) {

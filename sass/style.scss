@@ -12,8 +12,8 @@ $rosaHover:rgb(230, 18, 166);
 
 /*MAPAS*/
 $tamanoFuente:  (
-    titulo:2.8vw, 
-    subtitulo:2.2vw ,
+    titulo:4.5rem, 
+    subtitulo:3.5rem,
     listable: 1rem ,
     itemfooter: 0.9rem,
     
@@ -71,10 +71,12 @@ main{
     div.flex-tituloprincipal{
 display: flex;
 justify-content: center;
-font-size:map-get($tamanoFuente, titulo);
 line-height: 1.6;
 letter-spacing: .3rem;
 padding-top:8%;
+        h1{
+            font-size:map-get($tamanoFuente, titulo); 
+        }
 }
 
     section div.flex-subtitulo{
@@ -82,11 +84,11 @@ padding-top:8%;
     justify-content:flex-start;
     padding-left: 2.5%;
     padding-top: 8%;
-    font-size: map-get($tamanoFuente, subtitulo ) ;
     line-height: 1.6;
     letter-spacing: .2rem;
 
         h2.formato-subtitulo{
+        font-size: map-get($tamanoFuente, subtitulo ) ;
         padding-bottom: 2%;
         padding-top:1% ;
      } 
@@ -252,14 +254,26 @@ footer{
         align-items: center;
       
     }
+
+    div.paginacompartida div{
+        width: 80%;
+    }
+
+    div.paginacompartida section{
+        width: 80%;
+    }
  
     .flex-contacto{
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .texto{
         padding-top:6%;
+    }.iframe{
+        align-self: center;
     }
+
 }
 
 @media (max-width:651px) {
