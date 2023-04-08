@@ -135,6 +135,9 @@ div.paginacompartida div {
   width: 35%;
   justify-content: center;
   background-image: url("../imagenes/fondo3.JPG");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   animation: ease-in retrato 40s;
 }
 div.paginacompartida div img.fotoretrato, div.paginacompartida main div.gridpadre-disenadores iframe.fotoretrato, main div.paginacompartida div.gridpadre-disenadores iframe.fotoretrato {
