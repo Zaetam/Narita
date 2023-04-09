@@ -330,6 +330,16 @@ footer{
 
 }  
 
+@media (max-width:421px) {
+
+main.container-index div.beach{
+        
+    background-image: url("../imagenes/capturemovilebwp.JPG");
+    height: 80vh;
+                   
+}
+}
+
 @media (max-width:381px) {
   
     /*PRODUCTOS*/
