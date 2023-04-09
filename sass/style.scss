@@ -17,6 +17,7 @@ $tamanoFuente:  (
     subtitulo2:2.8rem,
     listable: 1rem ,
     itemfooter: 1rem,
+    subtitulo3:28px,
     
  
 );
@@ -281,11 +282,11 @@ footer{
 @media (max-width:710px) {
   
     /*CONDICIONES*/
-   main section div.flex-subtitulo h2.formato-subtitulo2{
+  /* main section div.flex-subtitulo h2.formato-subtitulo2{
         font-size: 25px ;
     
     
-}
+}*/
 }
 
 @media (max-width:651px) {
@@ -308,15 +309,17 @@ footer{
 
 @media (max-width:451px) {
 
-
+    
     main div.flex-tituloprincipal h1{
         font-size: 32px;
-        
+               
     }
 
      /*CONDICIONES*/
-   main section div.flex-subtitulo h2.formato-subtitulo2{
-    font-size: 20px ;
+     
+   main section div.flex-subtitulo h2.formato-subtitulo{
+    font-size: map-get( $tamanoFuente, subtitulo3);
+    
    }
 
   
