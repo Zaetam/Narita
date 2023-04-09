@@ -341,7 +341,8 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
   .espacioparaid {
     margin-top: 8%;
   }
-  /*INDEX*/
+}
+@media (max-width: 767px) {
   main.container-index div.todos {
     background-image: url("../imagenes/capturenarita3movile.JPG");
     height: 80vh;
@@ -358,8 +359,6 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
     background-image: url("../imagenes/capturemovilenight.JPG");
     height: 80vh;
   }
-}
-@media (max-width: 767px) {
   /*PRODUCTOS*/
   .espacioparaid {
     margin-top: 8%;

@@ -185,9 +185,11 @@ footer{
     
     .espacioparaid{
         margin-top: 8%;
-    }
-        /*INDEX*/
+    } 
 
+}
+
+@media (max-width:767px) {
     main.container-index div.todos{
     
         background-image: url("../imagenes/capturenarita3movile.JPG");
@@ -212,10 +214,6 @@ footer{
             background-image: url("../imagenes/capturemovilenight.JPG");
             height: 80vh;
     }
-
-}
-
-@media (max-width:767px) {
 
       
     /*PRODUCTOS*/
