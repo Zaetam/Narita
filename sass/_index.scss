@@ -12,8 +12,8 @@ $rosaHover:rgb(230, 18, 166);
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center center;
-  
-  height: 120vh;
+  height: 100vh;
+
 }
 
 
@@ -83,6 +83,6 @@ main.container-index{
 
   .night{
     @include divrubros;
-    background-image: url("../imagenes/capturenochekraked.JPG");
+    background-image: url("../imagenes/capturenochekraked2.JPG");
   }
 }

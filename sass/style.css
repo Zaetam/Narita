@@ -40,7 +40,7 @@ main.container-index .todos {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 120vh;
+  height: 100vh;
   background-image: url("../imagenes/capturenarita3.JPG");
 }
 main.container-index .beach {
@@ -51,7 +51,7 @@ main.container-index .beach {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 120vh;
+  height: 100vh;
   background-image: url("../imagenes/capturebwkraked.JPEG");
 }
 main.container-index .day {
@@ -62,7 +62,7 @@ main.container-index .day {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 120vh;
+  height: 100vh;
   background-image: url("../imagenes/capturedia2.JPG");
 }
 main.container-index .night {
@@ -73,8 +73,8 @@ main.container-index .night {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 120vh;
-  background-image: url("../imagenes/capturenochekraked.JPG");
+  height: 100vh;
+  background-image: url("../imagenes/capturenochekraked2.JPG");
 }
 
 div.galeria {
@@ -279,7 +279,7 @@ main section div.flex-subtitulo h2.formato-subtitulo {
   padding-top: 1%;
 }
 main section div.flex-subtitulo h2.formato-subtitulo2 {
-  font-size: 5vw;
+  font-size: 2.8rem;
   padding-bottom: 2%;
   padding-top: 1%;
 }
@@ -308,7 +308,7 @@ footer .flexcontainer_footer_padre .flexcontainer_footer li {
 }
 footer .flexcontainer_footer_padre .flexcontainer_footer li a {
   color: black;
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 footer .flexcontainer_footer_padre .flexcontainer_footer li a:hover {
@@ -341,8 +341,6 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
   .espacioparaid {
     margin-top: 8%;
   }
-}
-@media (max-width: 767px) {
   /*INDEX*/
   main.container-index div.todos {
     background-image: url("../imagenes/capturenarita3movile.JPG");
@@ -360,6 +358,8 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
     background-image: url("../imagenes/capturemovilenight.JPG");
     height: 80vh;
   }
+}
+@media (max-width: 767px) {
   /*PRODUCTOS*/
   .espacioparaid {
     margin-top: 8%;
@@ -404,6 +404,12 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
     align-self: center;
   }
 }
+@media (max-width: 710px) {
+  /*CONDICIONES*/
+  main section div.flex-subtitulo h2.formato-subtitulo2 {
+    font-size: 25px;
+  }
+}
 @media (max-width: 651px) {
   /*PRODUCTOS*/
   .espacioparaid {
@@ -417,6 +423,13 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
   }
 }
 @media (max-width: 451px) {
+  main div.flex-tituloprincipal h1 {
+    font-size: 32px;
+  }
+  /*CONDICIONES*/
+  main section div.flex-subtitulo h2.formato-subtitulo2 {
+    font-size: 20px;
+  }
   /*PRODUCTOS*/
   .espacioparaid {
     margin-top: 20%;
@@ -426,6 +439,9 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
   /*PRODUCTOS*/
   .espacioparaid {
     margin-top: 25%;
+  }
+  main section div.flex-subtitulo h2.formato-subtitulo2 {
+    font-size: 15px;
   }
 }
 @media (max-width: 331px) {

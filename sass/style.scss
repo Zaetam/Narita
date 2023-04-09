@@ -14,9 +14,9 @@ $rosaHover:rgb(230, 18, 166);
 $tamanoFuente:  (
     titulo:3.8rem, 
     subtitulo:3.4rem,
-    subtitulo2:5vw,
+    subtitulo2:2.8rem,
     listable: 1rem ,
-    itemfooter: 0.9rem,
+    itemfooter: 1rem,
     
  
 );
@@ -70,34 +70,35 @@ header{
  
 main{
     div.flex-tituloprincipal{
-display: flex;
-justify-content: center;
-line-height: 1.6;
-letter-spacing: .3rem;
-padding-top:8%;
+        display: flex;
+        justify-content: center;
+        line-height: 1.6;
+        letter-spacing: .3rem;
+        padding-top:8%;
         h1{
             font-size:map-get($tamanoFuente, titulo); 
         }
-}
+    }
 
     section div.flex-subtitulo{
-    display: flex;
-    justify-content:flex-start;
-    padding-left: 2.5%;
-    padding-top: 8%;
-    line-height: 1.6;
-    letter-spacing: .2rem;
+        display: flex;
+        justify-content:flex-start;
+        padding-left: 2.5%;
+        padding-top: 8%;
+        line-height: 1.6;
+        letter-spacing: .2rem;
 
         h2.formato-subtitulo{
-        font-size: map-get($tamanoFuente, subtitulo ) ;
-        padding-bottom: 2%;
-        padding-top:1% ;
-     } 
+            font-size: map-get($tamanoFuente, subtitulo ) ;
+            padding-bottom: 2%;
+            padding-top:1% ;
+        } 
+        
         h2.formato-subtitulo2{
-        font-size: map-get($tamanoFuente, subtitulo2 ) ;
-        padding-bottom: 2%;
-        padding-top:1% ;
-     } 
+            font-size: map-get($tamanoFuente, subtitulo2 ) ;
+            padding-bottom: 2%;
+            padding-top:1% ;
+        } 
 
     }
 
@@ -166,7 +167,6 @@ footer{
 /*MEDIA QUERIES*/
 
 
-
 @media (max-width:1200px) {
   
     /*PRODUCTOS*/
@@ -185,42 +185,38 @@ footer{
     .espacioparaid{
         margin-top: 8%;
     }
-
-}
-
-@media (max-width:767px) {
-
-    /*INDEX*/
+        /*INDEX*/
 
     main.container-index div.todos{
     
         background-image: url("../imagenes/capturenarita3movile.JPG");
         height: 80vh;
-       
     }
-
-
-    main.container-index div.beach{
     
+    main.container-index div.beach{
+        
         background-image: url("../imagenes/capturemovile.JPG");
         height: 80vh;
-        
-        
+                       
     }
-
-    main.container-index div.day{
-     background-image: url("../imagenes/capturemovileday.JPG");
-     height: 80vh;
-     
-    }
-
-    main.container-index div.night{
     
-        background-image: url("../imagenes/capturemovilenight.JPG");
-        height: 80vh;
+    main.container-index div.day{
+         background-image: url("../imagenes/capturemovileday.JPG");
+         height: 80vh;
+         
+    }
+    
+    main.container-index div.night{
+        
+            background-image: url("../imagenes/capturemovilenight.JPG");
+            height: 80vh;
     }
 
-  
+}
+
+@media (max-width:767px) {
+
+      
     /*PRODUCTOS*/
 
     .espacioparaid{
@@ -282,6 +278,16 @@ footer{
 
 }
 
+@media (max-width:710px) {
+  
+    /*CONDICIONES*/
+   main section div.flex-subtitulo h2.formato-subtitulo2{
+        font-size: 25px ;
+    
+    
+}
+}
+
 @media (max-width:651px) {
   
     /*PRODUCTOS*/
@@ -301,12 +307,25 @@ footer{
 }  
 
 @media (max-width:451px) {
+
+
+    main div.flex-tituloprincipal h1{
+        font-size: 32px;
+        
+    }
+
+     /*CONDICIONES*/
+   main section div.flex-subtitulo h2.formato-subtitulo2{
+    font-size: 20px ;
+   }
+
   
     /*PRODUCTOS*/
     
     .espacioparaid{
         margin-top: 20%;
     }
+
 }  
 
 @media (max-width:381px) {
@@ -316,6 +335,10 @@ footer{
     .espacioparaid{
         margin-top: 25%;
     }
+
+    main section div.flex-subtitulo h2.formato-subtitulo2{
+        font-size: 15px ;
+       }
 }
 
 
