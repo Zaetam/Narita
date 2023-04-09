@@ -343,22 +343,6 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
   }
 }
 @media (max-width: 767px) {
-  main.container-index div.todos {
-    background-image: url("../imagenes/capturenarita3movile.JPG");
-    height: 80vh;
-  }
-  main.container-index div.beach {
-    background-image: url("../imagenes/capturemovile.JPG");
-    height: 80vh;
-  }
-  main.container-index div.day {
-    background-image: url("../imagenes/capturemovileday.JPG");
-    height: 80vh;
-  }
-  main.container-index div.night {
-    background-image: url("../imagenes/capturemovilenight.JPG");
-    height: 80vh;
-  }
   /*PRODUCTOS*/
   .espacioparaid {
     margin-top: 8%;
@@ -405,13 +389,27 @@ footer .footer_redes a img, footer .footer_redes a main div.gridpadre-disenadore
 }
 @media (max-width: 710px) {
   /*CONDICIONES*/
-  /* main section div.flex-subtitulo h2.formato-subtitulo2{
-          font-size: 25px ;
-
-
-  }*/
+  main section div.flex-subtitulo h2.formato-subtitulo2 {
+    font-size: 25px;
+  }
 }
 @media (max-width: 651px) {
+  main.container-index div.todos {
+    background-image: url("../imagenes/capturenarita3movile.JPG");
+    height: 80vh;
+  }
+  main.container-index div.beach {
+    background-image: url("../imagenes/capturemovile.JPG");
+    height: 80vh;
+  }
+  main.container-index div.day {
+    background-image: url("../imagenes/capturemovileday.JPG");
+    height: 80vh;
+  }
+  main.container-index div.night {
+    background-image: url("../imagenes/capturemovilenight.JPG");
+    height: 80vh;
+  }
   /*PRODUCTOS*/
   .espacioparaid {
     margin-top: 12%;
