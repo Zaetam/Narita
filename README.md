@@ -1,3 +1,3 @@
-# Página web 3ra entrega curso dw Marina Zaeta.
+# Página web Proyecto Final curso dw Marina Zaeta.
 
 ### NARITA
